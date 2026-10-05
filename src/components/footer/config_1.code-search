@@ -1,0 +1,29 @@
+# Query: config.1
+# ContextLines: 1
+
+5 results - 5 files
+
+src/app/api/send/route.ts:
+  1  import { EmailTemplate } from "@/components/email-template";
+  2: import { config } from "@/data/config";
+  3  import { Resend } from "resend";
+
+src/components/header/header.tsx:
+  11  import { Button } from "../ui/button";
+  12: import { config } from "@/data/config";
+  13  import OnlineUsers from "../realtime/online-users";
+
+src/components/sections/contact.tsx:
+  10  import ContactForm from "../ContactForm";
+  11: import { config } from "@/data/config";
+  12  import { SectionHeader } from "./section-header";
+
+src/components/sections/hero.tsx:
+  14  import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+  15: import { config } from "@/data/config";
+  16  
+
+src/components/social/social-media-icons.tsx:
+  6  import { SiGithub, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
+  7: import { config } from "@/data/config";
+  8  import Link from "next/link";
