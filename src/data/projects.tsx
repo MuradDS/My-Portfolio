@@ -498,7 +498,7 @@ const projects: Project[] = [
     id: "portfolio",
     category: "Portfolio",
     title: "My Portfolio",
-    src: "/assets/projects-screenshots/portfolio/landing.png",
+    src: "/assets/projects-screenshots/portfolio/lan.png",
     screenshots: ["1.png"],
     live: "",
     github:"",
@@ -533,7 +533,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/portfolio/landing.png`,
+              `${BASE_PATH}/portfolio/lan.png`,
               `${BASE_PATH}/portfolio/skills.png`,
             ]}
           />
